@@ -1,6 +1,4 @@
-# Homework 4 - Temperature Converter ([continued below](#step-1---fork-this-repository))
-
-## Temperature Converter
+# Homework 4 - Temperature Converter
 
 Build an application using HTML/CSS and JS that converts a temperature from Fahrenheit to Celsius AND from Celsius to Fahrenheit, based on user input. 
 
