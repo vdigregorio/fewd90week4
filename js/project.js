@@ -1,27 +1,25 @@
 var inputFtoC;
 var inputCtoF;
 
-function calculateTotal(){
+function calculateTotalCtoF() {
 
-inputCtoF = document.getElementById("inputCtoF").value;
+	inputCtoF = document.getElementById("inputCtoF").value;
 
-var solutionCtoF = inputCtoF * 9 / 5 + 32;
+	var solutionCtoF = inputCtoF * 9 / 5 + 32;
 
 
-document.getElementById("solutionCtoF").innerHTML = solutionCtoF;
+	document.getElementById("solutionCtoF").innerHTML = solutionCtoF;
 }
 
-function calculateTotal(){
-inputFtoC = document.getElementById("inputFtoC").value;
+function calculateTotalFtoC() {
+	inputFtoC = document.getElementById("inputFtoC").value;
 
-var solutionFtoC = (inputFtoC - 32) * (5 / 9);
+	var solutionFtoC = (inputFtoC - 32) * (5 / 9);
 
 
-document.getElementById("solutionFtoC").innerHTML = solutionFtoC;
+	document.getElementById("solutionFtoC").innerHTML = solutionFtoC;
 
 }
 
-document.getElementById("convertFtoC").onclick = calculateTotal;
-document.getElementById("convertCtoF").onclick = calculateTotal;
-
-
+document.getElementById("convertFtoC").onclick = calculateTotalFtoC;
+document.getElementById("convertCtoF").onclick = calculateTotalCtoF;
